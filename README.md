@@ -11,8 +11,14 @@ To begin development and testing locally, please follow these steps in your term
 1. Clone the repo by running `git clone https://github.com/SolyncSoftware/KILLALLBOTS.git`.
 2. Go inside the newly cloned folder (`cd KILLALLBOTS`).
 3. Run `bun install` to install the packages.
-4. Great! Now configure `config.json` with your Discord application and roles.
-5. You are now able to run the bot locally and see your Discord application/bot come to life! :)
+4. Great! Now create and configure a new file named `.env` on the root of the project with your Discord application and roles (please check .ENV configuration template section).
+6. You are now able to run the bot locally and see your Discord application/bot come to life! :)
+
+## .ENV configuration template
+```
+DISCORD_TOKEN=
+ROLE_ID=
+```
 
 ## Goals
 
@@ -25,3 +31,5 @@ To begin development and testing locally, please follow these steps in your term
 - [Bun Documentation](https://bun.sh/docs)
 - [TypeScript Handbook](https://www.typescriptlang.org/docs/)
 - [Solync Community Discord](https://discord.com/invite/nUeRyRtDYC)
+- [More information about .env files](https://upsun.com/blog/what-is-env-file/)
+- [How to use and access enviroment variables in Bun](https://bun.com/docs/runtime/environment-variables)
